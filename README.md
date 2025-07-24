@@ -5,15 +5,15 @@ Founded in 2015, Olist is a Brazilian e-commerce platform that operates as a mar
 
 The platform provides a publicly available dataset spanning 100,000 orders from 2016 to 2018. The dataset contains critical e-commerce data regarding customer and seller details, order records, customer reviews and geolocations. This project analyzes this data in order to uncover actionable insights and recommendations to improve performance across marketing, sales, product and finance teams. To improve performance across the previously mentioned categories, it was decided to focus on the following key metrics:
 
-**-Customer Acquisition & Retention:**
+**- Customer Acquisition & Retention:**
 
-**-Geographic Targeting:**
+**- Geographic Targeting:**
 
-**-Financial Risk Management:**
+**- Financial Risk Management:**
 
-**-Delivery Performance & Customer Satisfaction:**
+**- Delivery Performance & Customer Satisfaction:**
 
-**-Quarterly Sales Trends:**
+**- Quarterly Sales Trends:**
 
 ## Data Structure
 
