@@ -11,7 +11,7 @@ The platform provides a publicly available dataset spanning 100,000 orders from 
 
 - Financial Risk Management:
 
-- Delivery Performance & Customer Satisfaction:
+- **Delivery Performance & Customer Satisfaction:**
 
 - Quarterly Sales Trends: 
 
