@@ -61,15 +61,24 @@ geolocation_zip_code_prefix	geolocation_lat	         geolocation_lng	      geolo
  I would then impute based on the average latitude value which I did using the following query:
 -- Create a temporary table with average lat/lng by zip prefix
 WITH zip_geo_avg AS (
+
   SELECT 
+  
     geolocation_zip_code_prefix,
+    
     AVG(geolocation_lat) AS avg_lat,
+    
     AVG(geolocation_lng) AS avg_lng
+    
   FROM 
     [olist_ecommerce_project].[dbo].[olist_geolocation_dataset]  WHERE 
+    
     geolocation_lat IS NOT NULL
+    
     AND geolocation_lng IS NOT NULL
-  GROUP BY 
+    
+  GROUP BY
+  
     geolocation_zip_code_prefix
 ),
 
