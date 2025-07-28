@@ -70,7 +70,7 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 <img width="1546" height="367" alt="image" src="https://github.com/user-attachments/assets/c7d12476-b163-440b-97ca-d7347bb986f7" />
 
 ## Recommendations
-Payment-Led Growth Strategies: Optimizing Methods by Category Potential
+#### Payment-Led Growth Strategies: Optimizing Methods by Category Potential
 - **Capitalize on Voucher Loyalty:** Expand voucher rewards for high-retention categories like bed/bath, leveraging their 86% repeat purchase rate.
 - **Boost Credit Card Utilization:** Target credit card promotions toward high-AOV categories, given their R$125+ average order value.
 - **Strengthen Credit & Voucher Partnerships in Bed/Bath category:** Bed/Bath represents 10–11% of sales for both credit cards (high AOV) and vouchers (high retention). Consider exclusive perks for repeat Bed/Bath purchases falling under these payment types.
