@@ -37,18 +37,12 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 - Debit cards accounted for the lowest repeat purchase rate (21.7%) and the lowest order frequency (1.14 orders/customer)
 - <table>
   <tr>
-    <td><img src="<img width="1168" height="452" alt="image" src="https://github.com/user-attachments/assets/b4f13a6c-198a-451e-a74f-7f017072e5d4" />
-" alt="Image 1" width="300"></td>
+    <td><img src="<img width="919" height="452" alt="image" src="https://github.com/user-attachments/assets/1bb7f84a-e57f-48d4-a832-f7d0a020e6fe" />
+" />
     <td><img src="<img width="959" height="537" alt="image" src="https://github.com/user-attachments/assets/85ce8298-0f35-4716-94e4-7ca74ee94b6c" />
 " alt="Image 2" width="300"></td>
   </tr>
 </table>
-Row Labels	Sum of Customers	Sum of Total Orders	Sum of Total Revenue	Percent of Revenue
-Boleto	18574	22316	2326831.05	17%
-Credit Card	70663	84518	10623078.61	77%
-Debit Card	1446	1654	178543.21	1%
-Voucher	2674	6547	685375.84	5%
-Grand Total	93357	115035	13813828.71	100%
 <img width="1115" height="145" alt="image" src="https://github.com/user-attachments/assets/c64ee026-7f30-47fd-98df-716f11dac944" />
 
 
