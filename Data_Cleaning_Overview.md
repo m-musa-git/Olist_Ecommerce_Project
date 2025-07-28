@@ -7,6 +7,7 @@ WHERE [product_category_name] LIKE ' %'
   OR  [product_category_name_english] LIKE ' %'
 
 and I did it this way:
+
 UPDATE [olist_ecommerce_project].[dbo].[olist_order_reviews_dataset]
 SET review_comment_title_trimmed = LTRIM(review_comment_title); 
 and 
