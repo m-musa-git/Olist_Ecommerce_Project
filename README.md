@@ -39,4 +39,13 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 
 <img width="1115" height="145" alt="image" src="https://github.com/user-attachments/assets/c64ee026-7f30-47fd-98df-716f11dac944" />
 
+### Geographic Targeting:
+- Health/Beauty was among the top 3 best selling categories for 10 out of the 12 states in the dataset
+- The most common pairs of categories were: (Health/Beauty, Sports/Leisure) which appeared in 10 states (BA, DF, ES, GO, PE, PR, RJ, RS, SC, SP), (Health/Beauty, Bed/Bath/Table) which appeared in 9 states (DF, ES, GO, MG, PR, RJ, RS, SC, SP) and (Bed/Bath/Table, Sports/Leisure) which appeared in 8 states (DF, ES, GO, PR, RJ, RS, SC, SP) 
+- All of the products sold in Ceará were from the categories Health/Beauty and Watches/Gifts
+- 69.2% of all sales for the category Watches/Gifts came from 2 states: Pernambuco and Ceará
+<img width="1282" height="330" alt="image" src="https://github.com/user-attachments/assets/2c3151f5-735d-4544-8273-c801ae0ea6a7" />
+
+
+
 
