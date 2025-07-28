@@ -27,3 +27,10 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 - **Regional Inventory Alignment:** Health/Beauty is a top-3 category in 10/12 states and pairs strongly with Sports/Leisure (10 states) and Bed/Bath (9 states). Watches/Gifts show hyper-local demand (69.2% sales from just Pernambuco/Ceará).
 
 - **Delivery Quality Crisis:** Late deliveries (4+ days) crater ratings (mean 1.7-2.2 vs. 4.3 for early deliveries), with 6/10 worst offenders having ≥10% late delivery rates.
+
+## Insights Deep-Dive
+# Customer Acquisition & Retention:
+- Customers who used vouchers had an 86% repeat purchase rate (3x higher than other payment methods)
+- Credit cards as a payment method accounted for 76% of the total revenue and the highest average order value (R$125.69) but only 1.2 orders per customer 
+- The top category for both credit card and voucher (Payment options with the highest repeat purchase rates) users was bed/bath accounting for 10% and 11% respectively 
+- Debit cards accounted for the lowest repeat purchase rate (21.7%) and the lowest order frequency (1.14 orders/customer)
