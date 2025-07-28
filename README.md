@@ -46,6 +46,14 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 - 69.2% of all sales for the category Watches/Gifts came from 2 states: Pernambuco and Ceará
 <img width="1282" height="330" alt="image" src="https://github.com/user-attachments/assets/2c3151f5-735d-4544-8273-c801ae0ea6a7" />
 
+### Financial Risk Management:
+- Despite representing 9.1% of the payment methods chosen by customers(Only definitive failures), vouchers accounted for 14.7% of all cancellations
+- 81% of non-delivered voucher orders end in cancellation, a much higher rate compared to its counterparts  49.1% for credit cards, 46.7% for debit cards and 40.9% for boleto)
+- Boleto had a higher percentage of orders in the processing stage (30%) compared to its counterparts
+- Debit Cards had a higher percentage of orders in the invoiced stage (40%) compared to its counterparts
+<img width="1150" height="433" alt="image" src="https://github.com/user-attachments/assets/829d229e-7175-4ed4-ba1b-3a1fe0a36d8c" />
+
+
 
 
 
