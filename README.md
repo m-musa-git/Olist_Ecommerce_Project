@@ -18,3 +18,12 @@ The platform provides a publicly available dataset of around 100,000 anonymized 
 ## Data Structure
 
 <img width="1706" height="732" alt="Screenshot 2025-07-24 151953" src="https://github.com/user-attachments/assets/bed557b7-c7cb-4aeb-90ee-06928af5aed0" />
+
+## Executive Summary
+Analysis of 100K orders reveals three high-impact opportunities to grow revenue and reduce risk:
+
+- **Voucher Loyalty Potential:** Voucher users show 3x higher repeat rates (86% vs. 21.7-49.1% for other payment methods) and dominate bed/bath purchases (11% category share). However, their 81% cancellation rate for non-delivered orders requires mitigation.
+
+- **Regional Inventory Alignment:** Health/Beauty is a top-3 category in 10/12 states and pairs strongly with Sports/Leisure (10 states) and Bed/Bath (9 states). Watches/Gifts show hyper-local demand (69.2% sales from just Pernambuco/Ceará).
+
+- **Delivery Quality Crisis:** Late deliveries (4+ days) crater ratings (mean 1.7-2.2 vs. 4.3 for early deliveries), with 6/10 worst offenders having ≥10% late delivery rates.
