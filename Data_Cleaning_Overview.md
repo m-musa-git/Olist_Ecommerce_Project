@@ -37,8 +37,8 @@ SET geolocation_city = 'sao jose do rio preto' WHERE geolocation_city LIKE '%s%j
 ```
 
 ## Addressing null values
-Coming back to null values, in the products dataset, there were 610 ROWS WHERE
-PRODUCTNAME was null. So i decided to use the following query:
+Coming back to null values, in the products dataset, there were 610 rows where
+product_category_name was null. So i decided to use the following query:
 
 ``` 
 UPDATE [olist_ecommerce_project].[dbo].[olist_products_dataset]
@@ -73,7 +73,7 @@ geolocation_zip_code_prefix	geolocation_lat	         geolocation_lng	      geolo
 ```
 
 
- I would then impute based on the average latitude value which I did using the following query:
+I would then impute based on the average latitude value which I did using the following query:
 
  ``` 
 -- Create a temporary table with average lat/lng by zip prefix
