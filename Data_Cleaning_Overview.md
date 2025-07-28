@@ -1,6 +1,3 @@
-Data_Cleaning_Overview
-
-
 To ensure the dataset is reliable, I first checked to see if there were any null values (more on that later). Next, I checked for whitespaces in any of the columns throughout the different tables. I decided it would be better to trim the whitespace for one of the tables after doing the following query: 
 SELECT [product_category_name]
       ,[product_category_name_english]
