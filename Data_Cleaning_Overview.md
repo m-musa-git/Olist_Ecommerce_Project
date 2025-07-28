@@ -1,3 +1,4 @@
+## Checking for null values
 To ensure the dataset is reliable, I first checked to see if there were any null values (more on that later). Next, I checked for whitespaces in any of the columns throughout the different tables. I decided it would be better to trim the whitespace for one of the tables after doing the following query: 
 
 SELECT [product_category_name]
@@ -14,6 +15,8 @@ and
 UPDATE [olist_ecommerce_project].[dbo].[product_category_name_translation]
 SET product_category_name_english = LTRIM(product_category_name_english); 
 
+
+## Standardizing city names
 And to ensure data standardization, I manually adjusted the names of some cities in the geolocation table by running the following query:
 SELECT 
       DISTINCT [geolocation_city]
@@ -25,6 +28,7 @@ The above query had among other outputs the following cities: sao jose do rio pr
 UPDATE [olist_ecommerce_project].[dbo].[olist_geolocation_dataset]
 SET geolocation_city = 'sao jose do rio preto' WHERE geolocation_city LIKE '%s%jos%do rio preto' 
 
+## Addressing null values
 Coming back to null values, in the products dataset, there were 610 ROWS WHERE
 PRODUCTNAME was null. So i decided to use the following query:
 
