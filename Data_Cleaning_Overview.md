@@ -14,7 +14,7 @@ and
 UPDATE [olist_ecommerce_project].[dbo].[product_category_name_translation]
 SET product_category_name_english = LTRIM(product_category_name_english); 
 
-And to ensure data standardization, I manually adjusted the names of some cities in the geolocation table
+And to ensure data standardization, I manually adjusted the names of some cities in the geolocation table by running the following query:
 SELECT 
       DISTINCT [geolocation_city]
 
