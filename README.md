@@ -35,14 +35,8 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 - Credit cards as a payment method accounted for 76% of the total revenue and the highest average order value (R$125.69) but only 1.2 orders per customer 
 - The top category for both credit card and voucher (Payment options with the highest repeat purchase rates) users was bed/bath accounting for 10% and 11% respectively 
 - Debit cards accounted for the lowest repeat purchase rate (21.7%) and the lowest order frequency (1.14 orders/customer)
-- <table>
-  <tr>
-    <td><img src="<img width="919" height="452" alt="image" src="https://github.com/user-attachments/assets/1bb7f84a-e57f-48d4-a832-f7d0a020e6fe" />
-" />
-    <td><img src="<img width="959" height="537" alt="image" src="https://github.com/user-attachments/assets/85ce8298-0f35-4716-94e4-7ca74ee94b6c" />
-" alt="Image 2" width="300"></td>
-  </tr>
-</table>
+<img width="1511" height="431" alt="image" src="https://github.com/user-attachments/assets/a5f11249-b0c5-40d3-ba2d-4300026d25f1" />
+
 <img width="1115" height="145" alt="image" src="https://github.com/user-attachments/assets/c64ee026-7f30-47fd-98df-716f11dac944" />
 
 
