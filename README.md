@@ -65,7 +65,7 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 #### Caveat: These categories were specifically chosen since they are the 3 most profitable categories: Bed/Bath Table (1710261.96), Health/Beauty (1651310.96) and Computer Accessories (1582933.75)
 - Computer accessories had the sharpest decline in AOV (average order value) out of the 3 categories: Going from 288.98 in Q4-2017 to 158.17 in Q3-2018.
 - Health/Beauty had a marginal increase in AOV from Q1 to Q2 in 2017 and 2018 (Going from R$175.99 to R$192.71 in 2017 and from R$179.7 to R$191.15 in 2018).
-- Bed/Bath table and Health/Beauty had the same trajectories (MAYBE USE A BETTER WORD) in terms of quarterly revenue.
+- Bed/Bath table and Health/Beauty had the same trends in terms of quarterly revenue.
 - Computer Accessories had the sharpest decline in revenue: Going from R$497936.57 in Q1 2018 to R$122268.15 in Q3 2018 which is lower than any quarterly revenue it had except for Q1 2017
 - Q3 2018 was the only quarter where revenue for all 3 categories declined.
 <img width="1546" height="367" alt="image" src="https://github.com/user-attachments/assets/c7d12476-b163-440b-97ca-d7347bb986f7" />
