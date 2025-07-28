@@ -62,7 +62,7 @@ Which gave the following output:
 ``` 
 geolocation_zip_code_prefix	geolocation_lat	         geolocation_lng	      geolocation_city	   geolocation_state
 28333	                        -21.0971584320068	        -42.1128921508789	            raposo               RJ
-28333	                         NULL	                       -6.328200340271	               raposo               RJ
+28333	                           NULL	                       -6.328200340271	               raposo               RJ
 28333	                        -21.1019268035889	        -42.1158103942871	            raposo               RJ
 28333	                        -21.1003036499023	        -42.1128082275391	            raposo	         RJ
 28333	                        -21.0974445343018	        -42.1086349487305	            raposo	         RJ
