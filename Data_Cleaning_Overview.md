@@ -1,7 +1,7 @@
 ## Checking for null values
 To ensure the dataset is reliable, I first checked to see if there were any null values (more on that later). Next, I checked for whitespaces in any of the columns throughout the different tables. I decided it would be better to trim the whitespace for one of the tables after doing the following query: 
 
-``` 
+```
 SELECT [product_category_name]
       ,[product_category_name_english]
   FROM [olist_ecommerce_project].[dbo].[product_category_name_translation]
@@ -9,12 +9,12 @@ WHERE [product_category_name] LIKE ' %'
   OR  [product_category_name_english] LIKE ' %'
 ```
 
-And I trimmed the whitespace using the following query:
+And I trimmed the whitespace using the following queries:
 
 ``` 
 UPDATE [olist_ecommerce_project].[dbo].[olist_order_reviews_dataset]
 SET review_comment_title_trimmed = LTRIM(review_comment_title); 
-and 
+
 UPDATE [olist_ecommerce_project].[dbo].[product_category_name_translation]
 SET product_category_name_english = LTRIM(product_category_name_english); 
 ```
@@ -23,10 +23,7 @@ SET product_category_name_english = LTRIM(product_category_name_english);
 And to ensure data standardization, I manually adjusted the names of some cities in the geolocation table by running the following query:
 
 ``` 
-SELECT 
-      DISTINCT [geolocation_city]
-
-  FROM [olist_ecommerce_project].[dbo].[olist_geolocation_dataset]
+SELECT  DISTINCT [geolocation_city]  FROM [olist_ecommerce_project].[dbo].[olist_geolocation_dataset]
 ```
   
 The above query had among other outputs the following cities: sao jose do rio preto and sÃ£josÃ©do rio preto . This was most likely due to the Portuguese alphabet format. As a result, I decided to standardize them based on their anglicized spelling.
@@ -65,7 +62,7 @@ Which gave the following output:
 ``` 
 geolocation_zip_code_prefix	geolocation_lat	         geolocation_lng	      geolocation_city	   geolocation_state
 28333	                        -21.0971584320068	        -42.1128921508789	            raposo               RJ
-28333	                        NULL	                    -6.328200340271	                  raposo               RJ
+28333	                         NULL	                     -6.328200340271	            raposo               RJ
 28333	                        -21.1019268035889	        -42.1158103942871	            raposo               RJ
 28333	                        -21.1003036499023	        -42.1128082275391	            raposo	         RJ
 28333	                        -21.0974445343018	        -42.1086349487305	            raposo	         RJ
