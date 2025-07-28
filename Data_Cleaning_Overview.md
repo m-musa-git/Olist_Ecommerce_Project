@@ -1,5 +1,5 @@
 ## Checking for null values
-To ensure the dataset is reliable, I first checked to see if there were any null values (more on that later). Next, I checked for whitespaces in any of the columns throughout the different tables. I decided it would be better to trim the whitespace for one of the tables after doing the following query: 
+To ensure the dataset is reliable, I first checked to see if there were any null values (more on that later). Next, I checked for whitespaces in any of the columns throughout the different tables. I did that using (among other similar queries) the query below: 
 
 ```
 SELECT [product_category_name]
@@ -9,7 +9,7 @@ WHERE [product_category_name] LIKE ' %'
   OR  [product_category_name_english] LIKE ' %'
 ```
 
-And I trimmed the whitespace using the following queries:
+And I trimmed whitespace using the following queries:
 
 ``` 
 UPDATE [olist_ecommerce_project].[dbo].[olist_order_reviews_dataset]
@@ -20,7 +20,7 @@ SET product_category_name_english = LTRIM(product_category_name_english);
 ```
 
 ## Standardizing city names
-And to ensure data standardization, I manually adjusted the names of some cities in the geolocation table by running the following query:
+To ensure data standardization, I manually adjusted the names of some cities in the geolocation table by running the following query:
 
 ``` 
 SELECT  DISTINCT [geolocation_city]  FROM [olist_ecommerce_project].[dbo].[olist_geolocation_dataset]
@@ -35,7 +35,7 @@ SET geolocation_city = 'sao jose do rio preto' WHERE geolocation_city LIKE '%s%j
 
 ## Addressing null values
 Coming back to null values, in the products dataset, there were 610 rows where
-product_category_name was null. So i decided to use the following query:
+product_category_name was null. So I decided to use the following query:
 
 ``` 
 UPDATE [olist_ecommerce_project].[dbo].[olist_products_dataset]
@@ -44,7 +44,7 @@ SET product_category_name = 'unknown',
 WHERE product_name_lenght IS NULL;
 ```
 
-And more on null values, i decided to implement imputation for missing geospatial data. I checked for that missing data by running the following query: 
+And more on null values, I decided to implement imputation for missing geospatial data. I checked for that missing data by running the following query: 
 
 ``` 
 SELECT * FROM [olist_ecommerce_project].[dbo].[olist_geolocation_dataset]  WHERE geolocation_lat OR geolocation_lng IS NULL 
