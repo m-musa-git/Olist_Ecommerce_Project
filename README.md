@@ -61,6 +61,15 @@ Analysis of 100K orders reveals three high-impact opportunities to grow revenue 
 - Nearly all late sellers had deliveries late by more than 10 days
 <img width="1620" height="458" alt="image" src="https://github.com/user-attachments/assets/d296bbd8-feb0-4eba-8c7d-2201b4acf0a9" />
 
+### Quarterly Sales Trends
+- Computer accessories had the sharpest decline in AOV (average order value) out of the 3 categories: Going from 288.98 in Q4-2017 to 158.17 in Q3-2018
+- Health/Beauty had a marginal increase in AOV from Q1 to Q2 in 2017 and 2018 (Going from 175.99 to 192.71 in 2017 and from 179.7 to 191.15 in 2018)
+- Bed/Bath table and Health/Beauty had the same trajectories (MAYBE USE A BETTER WORD) in terms of quarterly revenue
+- Computer Accessories had the sharpest decline in revenue: Going from 497936.57 in Q1 2018 to in Q3 2018 which is lower than any quarterly revenue it had except for Q1 2017
+- Q3 2018 was the only quarter where revenue for all 3 categories declined
+<img width="1546" height="367" alt="image" src="https://github.com/user-attachments/assets/c7d12476-b163-440b-97ca-d7347bb986f7" />
+
+
 
 
 
